@@ -18,8 +18,10 @@
   </head>
 
   <body>
-    <h1> This is a Header </h1>
-    <%= yield %>
+    <%= render 'home/header' %>
+    <div class="container">
+      <%= yield %>
+    </div>
     <h5> This is a Footer </h5>
   </body>
 </html>
